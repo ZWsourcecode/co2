@@ -1,0 +1,9 @@
+name: icosenv
+channels:
+  - defaults
+dependencies:
+  - scipy
+  - pandas
+  - numpy
+prefix: D:\Program Files\anaconda3\envs\icosenv
+
