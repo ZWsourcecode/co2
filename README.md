@@ -26,5 +26,5 @@ Extract carbontracker model output at the location of WDCGG's 129 stations. Carb
 ## WDCGG station data
 The monthly data from WDCGG's 129 stations are used to evaluate Carbontracker model outputs. 
 Global locations of selected 200 observation stations within CarbonTracker project (red dots) and the 129 stations used in WDCGG analysis (Tsutsumi et al., 2009) (blue triangles), shown as bellow.
-![location](/pic/observation_location.png)
+![measurement location](/images/observation_location.png)
 
