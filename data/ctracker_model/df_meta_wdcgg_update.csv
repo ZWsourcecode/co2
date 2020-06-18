@@ -1,0 +1,130 @@
+Unnamed: 0,FILENAME,STATION,COUNTRY,SUBMITTED,LATITUDE,LONGITUDE,ALTITUDE,COVERING,SAMPLING,monthes,flag
+1,abp312s0.dat, Arembepe, Brazil, NOAA,-12.77,-38.17,        0 m, October 2006 - December 2009, surface-flask,216,1
+2,alt482n1.dat, Alert, Canada, NOAA,82.5,-62.33,      210 m, June 1985 - December 2017, surface-flask,216,1
+3,ams137s1.dat, Amsterdam Island, France, LSCE,-37.8,77.53,       70 m, January 1981 - December 2010, surface-insitu,216,1
+4,amy236n1.dat, Anmyeon-do, Republic of Korea, KMA,36.53,126.33,       46 m, January 1999 - April 2018, surface-insitu,216,1
+5,asc107s0.dat, Ascension Island, UK, NOAA,-7.97,-14.4,       91 m, August 1979 - December 2017, surface-flask,216,1
+6,ask123n0.dat, Assekrem, Algeria, NOAA,23.27,5.63,     2710 m, September 1995 - December 2017, surface-flask,216,1
+7,avi417n0.dat, St. Croix, United States of America, NOAA,17.75,-64.75,        3 m, March 1979 - August 1990, surface-flask,216,1
+8,azr638n0.dat, Serreta (Terceira), Portugal, NOAA,38.77,-27.38,       40 m, December 1979 - December 2017, surface-flask,216,1
+9,bal655n0.dat, Baltic Sea, Poland, NOAA,55.5,16.67,        7 m, September 1992 - June 2011, surface-flask,216,1
+10,ber255n0.dat, Bering Island, Russian Federation, MGO,55.2,165.98,       13 m, July 1986 - January 1994, surface-flask,216,1
+11,bgu641n0.dat, Begur, Spain, LSCE,41.97,3.23,       13 m, February 2000 - October 2010, surface-flask,216,1
+12,bhd541s1.dat, Baring Head, New Zealand, NIWA,-41.4,174.87,       85 m, January 1973 - December 2017, surface-insitu,216,1
+13,bme432n0.dat, St. David's Head, UK, NOAA,32.37,-64.65,       30 m, February 1989 - October 2008, surface-flask,216,1
+14,bmw432n0.dat, Tudor Hill (Bermuda), UK, NOAA,32.27,-64.88,       30 m, May 1989 - December 2017, surface-flask,216,1
+15,brt648n0.dat, Brotjacklriegel, Germany, UBAG,48.82,13.22,     1016 m, January 1972 - December 2003, surface-insitu,216,1
+16,brw471n0.dat, Barrow (AK), United States of America, NOAA,71.32,-156.62,       11 m, May 1971 - December 2017, surface-flask,216,1
+17,cba455n0.dat, Cold Bay (AK), United States of America, NOAA,55.2,-162.72,       25 m, October 1978 - December 2017, surface-flask,216,1
+18,cdl453n0.dat, Candle Lake, Canada, ECCC,53.98,-105.12,      591 m, August 2002 - December 2010, surface-insitu,216,1
+19,cfa519s0.dat, Cape Ferguson, Australia, CSIRO,-19.28,147.07,        2 m, June 1991 - December 2017, surface-flask,216,1
+20,cgo540s2.dat, Cape Grim, Australia, CSIRO,-40.68,144.68,       94 m, April 1976 - December 2017, surface-insitu,216,1
+21,cgr637n0.dat, Capo Granitola, Italy, ISAC,37.67,12.65,        5 m, January 2015 - December 2017, surface-insitu,216,1
+22,chl458n0.dat, Churchill, Canada, ECCC,58.73,-93.82,       16 m, October 2011 - December 2017, surface-insitu,216,1
+23,chm449n0.dat, Chibougamau, Canada, ECCC,49.7,-74.35,      383 m, August 2007 - April 2011, surface-insitu,216,1
+24,chr501n0.dat, Christmas Island, Kiribati, NOAA,1.7,-157.17,        3 m, March 1984 - December 2017, surface-flask,216,1
+25,cmn644n0.dat, Monte Cimone, Italy, IAFMS,44.17,10.68,     2165 m, March 1979 - December 2017, surface-insitu,216,1
+26,cmo445n0.dat, Cape Meares (OR), United States of America, NOAA,45.0,-124.0,       30 m, March 1982 - December 1997, surface-flask,216,1
+27,coi243n0.dat, Cape Ochiishi, Japan, NIES,43.17,145.5,       49 m, August 1995 - December 2002, surface-insitu,216,1
+28,cpt134s1.dat, Cape Point, South Africa, SAWS,-34.35,18.48,      230 m, September 1993 - December 2017, surface-insitu,216,1
+29,cri215n0.dat, Cape Rama, India, CSIRO,15.08,73.83,       60 m, February 1993 - January 2013, surface-flask,216,1
+30,crz146s0.dat, Crozet, France, NOAA,-46.43,51.83,      120 m, March 1991 - December 2017, surface-flask,216,1
+31,cya766s0.dat, Casey, Australia, CSIRO,-66.28,110.52,       51 m, June 1997 - December 2017, surface-flask,216,1
+32,ddr236n0.dat, Mt. Dodaira, Japan, SAIPF,36.0,139.2,      840 m, April 1992 - December 2016, surface-insitu,216,1
+33,drp859s0.dat, Drake Passage, United States of America, NOAA,-59.0,-64.68,        0 m, March 2006 - July 2017, ship-flask,216,1
+34,egb444n0.dat, Egbert, Canada, ECCC,44.23,-79.78,      255 m, March 2005 - December 2017, surface-insitu,216,1
+35,eic327s0.dat, Easter Island, Chile, NOAA,-27.17,-109.42,       41 m, January 1994 - June 2017, surface-flask,216,1
+36,esp449n0.dat, Estevan Point, Canada, CSIRO,49.38,-126.55,        7 m, June 1993 - December 2017, surface-flask,216,1
+37,etl454n0.dat, East Trout Lake, Canada, ECCC,54.35,-104.98,      500 m, August 2005 - December 2017, surface-insitu,216,1
+38,fsd449n0.dat, Fraserdale, Canada, ECCC,49.83,-81.52,      210 m, February 1990 - December 2017, surface-insitu,216,1
+39,gmi513n0.dat, Guam (Mariana Island), United States of America, NOAA,13.43,144.78,        2 m, March 1979 - June 2017, surface-flask,216,1
+40,goz636n0.dat, Dwejra Point, Malta, NOAA,36.05,14.18,       30 m, October 1993 - February 1999, surface-flask,216,1
+41,gsn233n0.dat, Gosan, Republic of Korea, METRI,33.28,126.17,       72 m, August 1990 - June 2003, surface-flask,216,1
+42,hat224n0.dat, Hateruma Island, Japan, NIES,24.05,123.82,       10 m, October 1993 - December 2002, surface-insitu,216,1
+43,hba775s0.dat, Halley, UK, NOAA,-75.62,-26.18,       30 m, January 1983 - January 2017, surface-flask,216,1
+44,hkg222n0.dat, Hok Tsui / Cape d Aguilar," Hong Kong, China", HKO,22.22,114.25,       60 m, January 2011 - August 2018, surface-insitu,216,1
+45,hpb647n0.dat, Hohenpeissenberg, Germany, NOAA,47.8,11.02,      985 m, April 2006 - December 2017, surface-flask,216,1
+46,hun646n0.dat, Hegyhatsal, Hungary, NOAA,46.95,16.65,      248 m, March 1993 - December 2017, surface-flask,216,1
+47,ice663n0.dat, Storhofdi, Iceland, NOAA,63.4,-20.28,      118 m, October 1992 - December 2017, surface-flask,216,1
+48,izo128n1.dat, IzaÃ±a (Tenerife), Spain, AEMET,28.32,-16.5,     2373 m, June 1984 - December 2017, surface-insitu,216,1
+49,jbn762s0.dat, Jubany, Argentina, IAA,-62.23,-58.67,       15 m, January 1994 - December 2009, surface-insitu,216,1
+50,jfj646n1.dat, Jungfraujoch, Switzerland, KUP,46.55,7.98,     3580 m, December 2004 - December 2017, surface-insitu,216,1
+51,key425n0.dat, Key Biscane (FL), United States of America, NOAA,25.67,-80.2,        3 m, December 1972 - December 2017, surface-flask,216,1
+52,kot276n0.dat, Kotelnyj Island, Russian Federation, MGO,76.0,137.87,        5 m, June 1986 - October 1993, surface-flask,216,1
+53,kps646n0.dat, K-Puszta, Hungary, HMS,46.97,19.58,      125 m, January 1981 - June 1999, surface-insitu,216,1
+54,kum519n0.dat, Cape Kumukahi (HI), United States of America, NOAA,19.52,-154.82,        3 m, March 1976 - December 2017, surface-flask,216,1
+55,kyz240n0.dat, Kyzylcha, Uzbekistan, MGO,40.87,66.15,      340 m, January 1990 - August 1991, surface-flask,216,1
+56,kzd244n0.dat, Sary Taukum, Kazakhstan, NOAA,44.45,77.57,      412 m, October 1997 - August 2009, surface-flask,216,1
+57,kzm243n0.dat, Plateau Assy, Kazakhstan, NOAA,43.25,77.88,     2519 m, October 1997 - August 2009, surface-flask,216,1
+58,lef445n0.dat, Park Falls (WI), United States of America, NOAA,45.93,-90.27,      868 m, December 1994 - December 2017, surface-flask,216,1
+59,llb454n1.dat, Lac La Biche (Alberta), Canada, ECCC,54.95,-112.47,      548 m, April 2007 - December 2017, surface-insitu,216,1
+60,lln223n0.dat, Lulin," Taiwan, Province of China", NOAA,23.47,120.87,     2862 m, August 2006 - December 2017, surface-flask,216,1
+61,lmp635n0.dat, Lampedusa, Italy, ENEA,35.52,12.63,       45 m, May 1992 - December 2017, surface-flask,216,1
+62,maa767s0.dat, Mawson, Australia, CSIRO,-67.6,62.87,       20 m, November 1990 - December 2017, surface-flask,216,1
+63,mbc476n0.dat, Mould Bay, Canada, NOAA,76.25,-119.35,       58 m, April 1980 - May 1997, surface-flask,216,1
+64,mex418n0.dat, Mex High Altitude Global Climate Observation Center, Mexico, NOAA,18.98,-97.32,     4560 m, January 2009 - December 2017, surface-flask,216,1
+65,mhd653n0.dat, Mace Head, Ireland, NOAA,53.33,-9.9,        5 m, June 1991 - December 2017, surface-flask,216,1
+66,mid528n0.dat, Sand Island, United States of America, NOAA,28.22,-177.37,        4 m, May 1985 - December 2017, surface-flask,216,1
+67,mkn100s0.dat, Mt. Kenya, Kenya, NOAA,-0.07,37.3,     3678 m, December 2003 - November 2010, surface-flask,216,1
+68,mlo519n1.dat, Mauna Loa (HI), United States of America, NOAA,19.53,-155.58,     3397 m, August 1969 - December 2017, surface-flask,216,1
+69,mnm224n0.dat, Minamitorishima, Japan, JMA,24.28,153.98,        7 m, January 1993 - May 2018, surface-insitu,216,1
+70,mqa554s0.dat, Macquarie Island, Australia, CSIRO,-54.5,158.93,        6 m, February 1991 - December 2017, surface-flask,216,1
+71,nat306s0.dat, Natal, Brazil, NOAA,-6.0,-35.2,        0 m, September 2010 - December 2017, surface-flask,216,1
+72,nmb123s0.dat, Gobabeb, Namibia, NOAA,-23.57,15.03,      408 m, January 1997 - December 2017, surface-flask,216,1
+73,nwr440n0.dat, Niwot Ridge - T-van (CO), United States of America, NOAA,40.05,-105.58,     3523 m, January 1968 - December 2017, surface-flask,216,1
+74,opw448n0.dat, Olympic Peninsula (WA), United States of America, NOAA,48.25,-124.42,      488 m, November 1984 - May 1990, surface-flask,216,1
+75,oxk650n0.dat, Ochsenkopf, Germany, NOAA,50.03,11.82,     1185 m, July 2006 - December 2017, surface-flask,216,1
+76,pal667n1.dat, Pallas, Finland, FMI,67.97,24.12,      560 m, July 1998 - December 2017, surface-insitu,216,1
+77,pdm642n0.dat, Pic du Midi, France, LSCE,42.93,0.13,     2877 m, June 2001 - August 2010, surface-flask,216,1
+78,poc800n0.dat, Pacific Ocean, United States of America, NOAA,0.0,-155.0,       10 m, September 1987 - July 2017, ship-flask,216,1
+79,poc805n0.dat, Pacific Ocean, United States of America, NOAA,5.0,-151.0,       10 m, January 1987 - July 2017, ship-flask,216,1
+80,poc805s0.dat, Pacific Ocean, United States of America, NOAA,-5.0,-159.0,       10 m, February 1987 - July 2017, ship-flask,216,1
+81,poc810n0.dat, Pacific Ocean, United States of America, NOAA,10.0,-149.0,       10 m, January 1987 - July 2017, ship-flask,216,1
+82,poc810s0.dat, Pacific Ocean, United States of America, NOAA,-10.0,-161.0,       10 m, March 1987 - July 2017, ship-flask,216,1
+83,poc815n0.dat, Pacific Ocean, United States of America, NOAA,15.0,-145.0,       10 m, December 1986 - July 2017, ship-flask,216,1
+84,poc815s0.dat, Pacific Ocean, United States of America, NOAA,-15.0,-171.0,       10 m, December 1986 - July 2017, ship-flask,216,1
+85,poc820n0.dat, Pacific Ocean, United States of America, NOAA,20.0,-141.0,       10 m, December 1986 - July 2017, ship-flask,216,1
+86,poc820s0.dat, Pacific Ocean, United States of America, NOAA,-20.0,-174.0,       10 m, February 1987 - June 2017, ship-flask,216,1
+87,poc825n0.dat, Pacific Ocean, United States of America, NOAA,25.0,-139.0,       10 m, December 1986 - July 2017, ship-flask,216,1
+88,poc825s0.dat, Pacific Ocean, United States of America, NOAA,-25.0,-171.0,       10 m, December 1986 - July 2017, ship-flask,216,1
+89,poc830n0.dat, Pacific Ocean, United States of America, NOAA,30.0,-135.0,       10 m, December 1986 - May 2017, ship-flask,216,1
+90,poc830s0.dat, Pacific Ocean, United States of America, NOAA,-30.0,-176.0,       10 m, December 1986 - July 2017, ship-flask,216,1
+91,poc835s0.dat, Pacific Ocean, United States of America, NOAA,-35.0,180.0,       10 m, January 1987 - June 2000, ship-flask,216,1
+92,prs645n0.dat, Plateau Rosa, Italy, RSE,45.93,7.7,     3480 m, April 1993 - December 2017, surface-insitu,216,1
+93,psa764s0.dat, Palmer Station, United States of America, NOAA,-64.77,-64.05,       10 m, January 1978 - December 2017, surface-flask,216,1
+94,pta438n0.dat, Point Arena (CA), United States of America, NOAA,38.95,-123.73,       17 m, January 1999 - May 2011, surface-flask,216,1
+95,puy645n0.dat, Puy de DÃ´me, France, LSCE,45.77,2.97,     1465 m, January 2000 - December 2010, surface-insitu,216,1
+96,rpb413n0.dat, Ragged Point, Barbados, NOAA,13.17,-59.43,       45 m, November 1987 - December 2017, surface-flask,216,1
+97,ryo239n0.dat, Ryori, Japan, JMA,39.03,141.82,      260 m, January 1987 - May 2018, surface-insitu,216,1
+98,scs803n0.dat, South China Sea, United States of America, NOAA,3.0,105.0,       15 m, July 1991 - October 1998, ship-flask,216,1
+99,scs806n0.dat, South China Sea, United States of America, NOAA,6.0,107.0,       15 m, July 1991 - October 1998, ship-flask,216,1
+100,scs809n0.dat, South China Sea, United States of America, NOAA,9.0,109.0,       15 m, July 1991 - October 1998, ship-flask,216,1
+101,scs812n0.dat, South China Sea, United States of America, NOAA,12.0,111.0,       15 m, July 1991 - October 1998, ship-flask,216,1
+102,scs815n0.dat, South China Sea, United States of America, NOAA,15.0,113.0,       15 m, July 1991 - October 1998, ship-flask,216,1
+103,scs818n0.dat, South China Sea, United States of America, NOAA,18.0,113.5,       15 m, July 1991 - October 1998, ship-flask,216,1
+104,scs821n0.dat, South China Sea, United States of America, NOAA,21.0,114.0,       15 m, July 1991 - October 1998, ship-flask,216,1
+105,sey104s0.dat, MahÃ, Seychelles, NOAA,-4.67,55.17,        3 m, January 1980 - December 2017, surface-flask,216,1
+106,sgp436n0.dat, Southern Great Plains E13 (OK), United States of America, NOAA,36.6,-97.5,      318 m, April 2002 - December 2017, surface-flask,216,1
+107,shm452n0.dat, Shemya Island, United States of America, NOAA,52.72,174.1,       40 m, September 1985 - November 2017, surface-flask,216,1
+108,sis660n0.dat, Lerwick, UK, CSIRO,60.13,-1.18,       84 m, November 1992 - December 2003, surface-flask,216,1
+109,smo514s0.dat, Samoa (Cape Matatula), United States of America, NOAA,-14.25,-170.57,       77 m, August 1973 - December 2017, surface-flask,216,1
+110,snb647n0.dat, Sonnblick, Austria, UBAA,47.05,12.97,     3106 m, January 1999 - December 2017, surface-insitu,216,1
+111,spo789s1.dat, South Pole, United States of America, NOAA,-90.0,-24.8,     2841 m, July 1975 - December 2017, surface-flask,216,1
+112,ssl647n1.dat, Schauinsland, Germany, UBAG,47.9,7.92,     1205 m, January 1972 - November 2013, surface-insitu,216,1
+113,stc654n1.dat, Ocean Station Charlie, United States of America, MGO,54.0,-35.0,        0 m, January 1986 - October 1990, surface-flask,216,1
+114,stm666n0.dat, Ocean Station M, Norway, NOAA,66.0,2.0,        4 m, March 1981 - November 2009, surface-flask,216,1
+115,sum672n0.dat, Summit, Denmark, NOAA,72.58,-38.48,     3238 m, June 1997 - December 2017, surface-flask,216,1
+116,syo769s0.dat, Syowa, Japan, NOAA,-69.0,39.58,       18 m, February 1986 - December 2017, surface-flask,216,1
+117,ter669n0.dat, Teriberka, Russian Federation, MGO,69.2,35.1,       40 m, April 1988 - December 2017, surface-flask,216,1
+118,thd441n0.dat, Trinidad Head (CA), United States of America, NOAA,41.05,-124.15,      107 m, April 2002 - May 2017, surface-flask,216,1
+119,tik271n1.dat, Tiksi, Russian Federation, MGO,71.58,128.92,        8 m, February 2011 - December 2017, surface-flask,216,1
+120,ush354s0.dat, Ushuaia, Argentina, NOAA,-54.85,-68.32,       18 m, September 1994 - December 2017, surface-flask,216,1
+121,uta439n0.dat, Wendover (UT), United States of America, NOAA,39.9,-113.72,     1320 m, May 1993 - December 2017, surface-flask,216,1
+122,uum244n0.dat, Ulaan Uul, Mongolia, NOAA,44.45,111.1,      914 m, January 1992 - December 2017, surface-flask,216,1
+123,wis631n0.dat, Sede Boker, Israel, NOAA,31.13,34.88,      400 m, November 1995 - December 2017, surface-flask,216,1
+124,wlg236n0.dat, Mt. Waliguan, China, NOAA,36.28,100.9,     3810 m, August 1990 - December 2017, surface-flask,216,1
+125,wsa443n0.dat, Sable Island, Canada, ECCC,43.93,-60.02,        2 m, June 2003 - December 2017, surface-insitu,216,1
+126,yon224n0.dat, Yonagunijima, Japan, JMA,24.47,123.02,       30 m, January 1997 - May 2018, surface-insitu,216,1
+127,zep678n0.dat, Zeppelin Mountain (Ny Ãlesund), Norway, NOAA,78.9,11.88,      475 m, February 1994 - December 2017, surface-flask,216,1
+128,zsf647n0.dat, Zugspitze-Schneefernerhaus, Germany, UBAG,47.42,10.98,     2671 m, January 2002 - December 2017, surface-insitu,216,1
+129,zug647n1.dat, Zugspitze-Gipfel, Germany, UBAG,47.42,10.98,     2962 m, January 1995 - December 2001, surface-insitu,216,1
