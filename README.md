@@ -11,7 +11,7 @@ This project analyzes monthly observation data (2000-2016) and simulation data (
 
 <a name="Carbontracker_station_data"></a>
 ## CarbonTracker station data
-The observed CO2 mole fraction is derived from 185 out of 246 global-wide distributed stations, which include surface-based, shipboard-based and tower-based measurements. The original data are in NetCDF format and have been converted to txt format. (the key information of each file can be found in df_meta_selected_ctracker_update.csv under [ctracker_obs](/output/ctracker_obs), the txt format files can be found in [ctracker_obs/input](/output/ctracker_obs)) 
+The observed CO2 mole fraction is derived from 185 out of 246 global-wide distributed stations, which include surface-based, shipboard-based and tower-based measurements. The original data are in NetCDF format and have been converted to txt format. The key information of each file can be found in [df_meta_selected_ctracker_update.csv](/output/ctracker_obs/df_meta_selected_ctracker_update.csv). The txt format files can be found in [ctracker_obs/input](/output/ctracker_obs) (There are only two txt files uploaded due to limitation of space). 
 
 <a name="Carbontracker_model_data"></a>
 ## CarbonTracker model data
