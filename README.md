@@ -31,9 +31,9 @@ The location of selected 185 observation stations from CarbonTracker project (<f
 
 <a name="curve_fit"></a>
 ## Fit to the data with a combination of polynomial and harmonic function
-CO2 records from each station can be abstracted as a combination of long-term trend and seasonality, which can be fitted by a polynomial function and Fourier harmonics, respectively. We applied the following function (Eq. 1) to fit CO2 data by using general linear least-squares fit (LFIT, Press et al. 1988).
+CO2 records from each station can be abstracted as a combination of long-term trend and seasonality, which can be fitted by a polynomial function and Fourier harmonics, respectively. We applied the following function to fit CO2 data by using general linear least-squares fit (LFIT, Press et al. 1988).
 
-<img src="https://bit.ly/3fCobQl" align="center" border="0" alt="f(x) =  a_{0} + a_{1}t +  x^{2} + ... +  a_{k}  t^{k}  + \sum_{n=1}^{nh} ( A_{n} cos 2 \pi nt +  B_{n} sin 2 \pi nt  ) " width="515" height="53" />   ..........  (Eq. 1)
+<img src="https://bit.ly/3fCobQl" align="center" border="0" alt="f(x) =  a_{0} + a_{1}t +  x^{2} + ... +  a_{k}  t^{k}  + \sum_{n=1}^{nh} ( A_{n} cos 2 \pi nt +  B_{n} sin 2 \pi nt  ) " width="515" height="53" />
 
 where a<sub>k</sub>, A<sub>n</sub> and B<sub>n</sub> are fitted parameters, t is the time from the beginning of the observation and it is in months and expressed as a fraction of its year. k denotes polynomial number, k=3. nh denotes harmonic number, nh=4. Figure 1 illustrates a function fit to CO2 data to gain the annual oscillation (red line in Figure 1a), is a combination of a polynomial fit to the trend (blue line in Figure 1a) and harmonic fit to the seasonality (Figure 1b). 
 
