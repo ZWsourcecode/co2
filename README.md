@@ -26,7 +26,7 @@ Extract CarbonTracker model output at the location of WDCGG's 129 stations. Carb
 <a name="WDCGG_station_data"></a>
 ## WDCGG station data
 The raw monthly data from the World Data Center for Greenhouse Gases (WDCGG)'s 129 stations is located in [wdcgg_obs/input](/data/wdcgg_obs/input). The output from global analysis by WDCGG are used to evaluate CarbonTracker model outputs. The data is got from [Mikio UENO](https://community.wmo.int/contacts/dr-mikio-ueno) can be found in [wdcgg_obs/outputMikio](/data/wdcgg_obs/outputMikio).
-The location of selected 185 observation stations from CarbonTracker project (<font color=red>red dots</font>) and the 129 stations used in WDCGG analysis (<font color=blue>blue triangles</font>)  (Tsutsumi et al., 2009), shown as bellow.
+The location of selected 185 observation stations from CarbonTracker project (<font color=red>red dots</font>) and the 129 stations used in WDCGG analysis (<font color=blue>blue triangles</font>)  (Tsutsumi et al., 2009), shown as bellow (Fig. 1).
 ![measurement location](/images/observation_location.png)
 
 <a name="curve_fit"></a>
@@ -35,6 +35,6 @@ CO2 records from each station can be abstracted as a combination of long-term tr
 
 ![](http://www.sciweavers.org/upload/Tex2Img_1592493141/render.png)
 
-where a<sub>k</sub>, A<sub>n</sub> and B<sub>n</sub> are fitted parameters, t is the time from the beginning of the observation and it is in months and expressed as a fraction of its year. k denotes polynomial number, k=3. nh denotes harmonic number, nh=4. Figure 1 illustrates a function fit to CO2 data to gain the annual oscillation (red line in Figure 1a), is a combination of a polynomial fit to the trend (blue line in Figure 1a) and harmonic fit to the seasonality (Figure 1b). 
+where a<sub>k</sub>, A<sub>n</sub> and B<sub>n</sub> are fitted parameters, t is the time from the beginning of the observation and it is in months and expressed as a fraction of its year. k denotes polynomial number, k=3. nh denotes harmonic number, nh=4. Fig. 2 below illustrates a function fit to CO2 data at AAC station to gain the annual oscillation (red line in Fig 2a), is a combination of a polynomial fit to the trend (blue line in Fig. 2a) and harmonic fit to the seasonality (green line in Fig. 2b). 
 
-![figure 1](/images/figure1.png)
+![figure 2](/images/figure2.png)
