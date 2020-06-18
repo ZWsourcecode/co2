@@ -27,14 +27,29 @@ Extract CarbonTracker model output at the location of WDCGG's 129 stations. Carb
 ## WDCGG station data
 The raw monthly data from the World Data Center for Greenhouse Gases (WDCGG)'s 129 stations is located in [wdcgg_obs/input](/data/wdcgg_obs/input). The output from global analysis by WDCGG are used to evaluate CarbonTracker model outputs. The data is got from [Mikio UENO](https://community.wmo.int/contacts/dr-mikio-ueno) can be found in [wdcgg_obs/outputMikio](/data/wdcgg_obs/outputMikio).
 The location of selected 185 observation stations from CarbonTracker project (<font color=red>red dots</font>) and the 129 stations used in WDCGG analysis (<font color=blue>blue triangles</font>)  (Tsutsumi et al., 2009), shown as bellow (Fig. 1).
+
+***Fig.1***
 ![measurement location](/images/observation_location.png)
 
 <a name="curve_fit"></a>
 ## Fit to the data with a combination of polynomial and harmonic function
-CO2 records from each station can be abstracted as a combination of long-term trend and seasonality, which can be fitted by a polynomial function and Fourier harmonics, respectively. We applied the following function to fit CO2 data by using general linear least-squares fit (LFIT, Press et al. 1988).
+CO2 records from each station can be abstracted as a combination of long-term trend and seasonality, which can be fitted by a polynomial function and Fourier harmonics, respectively. We applied the following function (Eq. 1) to fit CO2 data by using general linear least-squares fit (LFIT, Press et al. 1988).
 
-![](http://www.sciweavers.org/upload/Tex2Img_1592493141/render.png)
+![](http://www.sciweavers.org/upload/Tex2Img_1592493141/render.png)       ...........   (Eq. 1)
 
 where a<sub>k</sub>, A<sub>n</sub> and B<sub>n</sub> are fitted parameters, t is the time from the beginning of the observation and it is in months and expressed as a fraction of its year. k denotes polynomial number, k=3. nh denotes harmonic number, nh=4. Fig. 2 below illustrates a function fit to CO2 data at AAC station to gain the annual oscillation (red line in Fig 2a), is a combination of a polynomial fit to the trend (blue line in Fig. 2a) and harmonic fit to the seasonality (green line in Fig. 2b). 
 
+***Fig.2***
 ![figure 2](/images/figure2.png)
+
+## Filtering of residuals
+The residuals is difference between raw data and the function fit (black dots in Fig. 2c). The filtering method is obtained from Thoning et al., (1989), which transforms CO2 data from time domain to frequency domain by using Fast Fourier Transform (FFT), apply a low pass filter to the frequency data to remove high-frequency variations, then transform the filtered data back to the time domain using an inverse FFT. Two filters, short term (a cut-off frequency of 4.5625 cycles/year, red line in Fig. 2c) and long term (a cut-off frequency of 0.5472 cycles/year, blue line in Fig. 2c), are applied in order to obtain the short term and interannual variations that are not determined by the fit function.
+
+## Gain smoothed CO2 and long-term growth  
+The results of the filtering residuals are then added to the fitted curve to obtain smoothed CO2 and its long-term growth. The smoothed CO2 comprises fitted trend, fitted seasonality and smoothed residuals (red line in Fig. 2d), which only removes short-term variations or noise. The long-term growth comprises fitted trend and residual trend, which removes seasonal cycle and noise (blue line in Fig. 2d).
+
+## CO2 growth rate
+The growth rate is determined by taking the first derivative of the long-term trend. However the trend is made up of discrete points than in a functional form, e.g. the black dots in Fig. 3a shows the trend points. In this case, an cubic spline interpolation is applied to the trend points, in which the spline curve passes through each trend points, as the blue line in fig. 3a. The CO2 growth rate is obtained with the derivative of the spline at each trend point.
+
+***Fig.3***
+![figure 3](/images/figure3.png)
