@@ -35,12 +35,12 @@ Extract CarbonTracker model output at the location of WDCGG's 129 stations. Carb
 The raw monthly data from the World Data Center for Greenhouse Gases (WDCGG)'s 129 stations is located in [wdcgg_obs/input](/data/wdcgg_obs/input). The output from global analysis by WDCGG are used to evaluate CarbonTracker model outputs. The data is got from [Mikio UENO](https://community.wmo.int/contacts/dr-mikio-ueno) can be found in [wdcgg_obs/outputMikio](/data/wdcgg_obs/outputMikio).
 The location of selected 185 observation stations from CarbonTracker project (<font color=red>red dots</font>) and the 129 stations used in WDCGG analysis (<font color=blue>blue triangles</font>)  (Tsutsumi et al., 2009), shown as bellow (Fig. 1).
 
-***Fig.1***
 ![measurement location](/images/observation_location.png)
+***Fig.1. Global locations of the selected 185 CarbonTracker observation stations (red dots) and the 129 stations used in WDCGG analysis (Tsutsumi et al., 2009)***
 
 <a name="curve_fit"></a>
 # 2.The curve fitting and filter method [[Python code]](/code/fit_filter_noaa.ipynb)
-The fitting and filter method from NOAA ESRL is applied to the data mentioned in [section 1](#Carbontracker_station_data), here is the [Python code](/code/fit_filter_noaa.ipynb)
+The fitting and filter method from NOAA ESRL is applied to the data mentioned in [section 1](#Carbontracker_station_data).
 ## 2.1. Fit to the data with a combination of polynomial and harmonic function
 CO2 records from each station can be abstracted as a combination of long-term trend and seasonality, which can be fitted by a polynomial function and Fourier harmonics, respectively. We applied the following function (Eq. 1) to fit CO2 data by using general linear least-squares fit (LFIT, Press et al. 1988).
 
