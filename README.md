@@ -78,11 +78,19 @@ Zonal means of CO2 mole fraction (each 30° , suggested by Tsutsumi et al., 2009
 - e. WDCGG observations, 129 stations, 2000-2017, NOAA method [[Python code]](/codes/cal_zonal_global_co2_wdcgg_noaa_from2000.ipynb)
 - f. WDCGG observations, 129 stations, 1968-2017, Mikio method [[Python code]](/codes/cal_zonal_global_co2_wdcgg_mikio.ipynb)
 
-Here shows an example of zonal and global mean CO2 mole fraction basing on `CarbonTracker observation data`. The rest results can be found in the python code (Jupyter notebook) mentioned above. 
+Here shows an example of zonal and global mean CO2 mole fraction basing on CarbonTracker observation data. The rest results can be found in the `python code` (Jupyter notebook) mentioned above. 
 
-***Fig.4***
+***Fig.4. Global, NH and SH area-weighted average CO2 mole fraction. ***
+*Penal a shows the CO2 mole fraction derived from raw data. Penal b shows the CO2 mole fraction by applying NOAA method. Penal c shows the difference between raw and calculated data*
 ![figure 4](/images/figure4.png)
 
+***Fig.5. CO2 zonal map, 5° per band ***
+*Penal a shows the CO2 mole fraction derived from raw data. Penal b shows the CO2 mole fraction by applying NOAA method.*
+![figure 5](/images/figure5.png)
+
+***Fig.6. Global, NH and SH area-weighted average CO2 growth rate ***
+*Penal a shows the CO2 mole fraction growth rate after applying NOAA method.*
+![figure 6](/images/figure6.png)
 
 ## 3.1 Compare zonal and global mean CO2
 
