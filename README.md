@@ -13,6 +13,9 @@ The CO2 mole fraction records from various stations conducted by different labor
     - [2.2. Filtering of residuals](#filter_residuals)
     - [2.3. Gain smoothed CO2 and long-term growth](#smoothed_co2)
     - [2.4. CO2 growth rate](#growth_rate)
+- 3.Zonal and global mean CO2 mole fraction
+    
+- 4.Global atmospheric CO2 mass
     
 <a name="Carbontracker_station_data"></a>
 # 1. Data
@@ -36,7 +39,7 @@ The location of selected 185 observation stations from CarbonTracker project (<f
 ![measurement location](/images/observation_location.png)
 
 <a name="curve_fit"></a>
-# 2.The curve fitting and filter method
+# 2.The curve fitting and filter method [Python code](/code/fit_filter_noaa.ipynb)
 The fitting and filter method from NOAA ESRL is applied to the data mentioned in [section 1](#Carbontracker_station_data), here is the [Python code](/code/fit_filter_noaa.ipynb)
 ## 2.1. Fit to the data with a combination of polynomial and harmonic function
 CO2 records from each station can be abstracted as a combination of long-term trend and seasonality, which can be fitted by a polynomial function and Fourier harmonics, respectively. We applied the following function (Eq. 1) to fit CO2 data by using general linear least-squares fit (LFIT, Press et al. 1988).
@@ -60,7 +63,9 @@ The results of the filtering residuals are then added to the fitted curve to obt
 
 <a name="growth_rate"></a>
 ## 2.4. CO2 growth rate
-The growth rate is determined by taking the first derivative of the long-term trend. However the trend is made up of discrete points than in a functional form, e.g. the black dots in Fig. 3a shows the trend points. In this case, an cubic spline interpolation is applied to the trend points, in which the spline curve passes through each trend points, as the blue line in fig. 3a. The CO2 growth rate is obtained with the derivative of the spline at each trend point.
+The growth rate is determined by taking the first derivative of the long-term trend. However the trend is made up of discrete points than in a functional form, e.g. the black dots in Fig. 3a shows the trend points. In this case, an cubic spline interpolation is applied to the trend points, in which the spline curve passes through each trend points, as the blue line in fig. 3a. The CO2 growth rate is obtained with the derivative of the spline at each trend point (Fig. 3b).
 
 ***Fig.3***
 ![figure 3](/images/figure3.png)
+
+
