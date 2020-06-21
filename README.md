@@ -69,11 +69,20 @@ The growth rate is determined by taking the first derivative of the long-term tr
 ![figure 3](/images/figure3.png)
 
 # 3. Zonal and global mean CO2 mole fraction
+## 3.1 Integrate zonal and global mean CO2
 Zonal means of CO2 mole fraction (each 30° , suggested by Tsutsumi et al., 2009) are calculated using observations from stations or outputs from CarbonTracker model located in each latitudinal band. Global and hemispheric means are calculated by area-weighted averaging the zonal means over each latitudinal band. Here we calculates five sets of zonal and global CO2 mole fraction basing on the five different data sets.
 - a. CarbonTracker observation data, 185 stations, 2000-2017, NOAA method [[Python code]](/codes/cal_zonal_global_co2_ctracker_obs.ipynb)
 - b. CarbonTracker model output, 129 grids as the same locations of WDCGG observations, 2000-2017, NOAA method [[Python code]](/codes/cal_zonal_global_co2_ctracker_model_129p.ipynb)
 - c. CarbonTracker model output, full global grids, 2000-2017, NOAA method [[Python code]](/codes/cal_zonal_global_co2_ctracker_model_global.ipynb)
 - d. WDCGG observations, 129 stations, 1968-2017, NOAA method [[Python code]](/codes/cal_zonal_global_co2_wdcgg_noaa.ipynb)
 - e. WDCGG observations, 129 stations, 2000-2017, NOAA method [[Python code]](/codes/cal_zonal_global_co2_wdcgg_noaa_from2000.ipynb)
-- e. WDCGG observations, 129 stations, 1968-2017, Mikio method [[Python code]](/codes/cal_zonal_global_co2_wdcgg_mikio.ipynb)
-    
+- f. WDCGG observations, 129 stations, 1968-2017, Mikio method [[Python code]](/codes/cal_zonal_global_co2_wdcgg_mikio.ipynb)
+
+Here shows an example of zonal and global mean CO2 mole fraction basing on `CarbonTracker observation data`. The rest results can be found in the python code (Jupyter notebook) mentioned above. 
+
+***Fig.4***
+![figure 4](/images/figure4.png)
+
+
+## 3.1 Compare zonal and global mean CO2
+
