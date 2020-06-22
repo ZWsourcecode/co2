@@ -80,18 +80,24 @@ Zonal means of CO2 mole fraction (each 30° , suggested by Tsutsumi et al., 2009
 
 Here shows an example of zonal and global mean CO2 mole fraction basing on CarbonTracker observation data. The rest results can be found in the `python code` (Jupyter notebook) mentioned above. 
 
-***Fig.4. An example of global, NH and SH area-weighted average CO2 mole fraction.***
+***Fig.4. An example (CarbonTracker observation) of global, NH and SH area-weighted average CO2 mole fraction.***
 *Penal a shows the CO2 mole fraction derived from raw data. Penal b shows the CO2 mole fraction by applying NOAA method. Penal c shows the difference between raw and calculated data*
 ![figure 4](/images/figure4.png)
 
-***Fig.5. An example of CO2 zonal map, 5° per band.***
+***Fig.5. An example (CarbonTracker observation) of CO2 zonal map, 5° per band.***
 *Penal a shows the CO2 mole fraction derived from raw data. Penal b shows the CO2 mole fraction by applying NOAA method.*
 ![figure 5](/images/figure5.png)
 
-***Fig.6. An example of global, NH and SH area-weighted average CO2 growth rate.***
+***Fig.6. An example (CarbonTracker observation) of global, NH and SH area-weighted average CO2 growth rate.***
 *Penal a shows the CO2 mole fraction growth rate after applying NOAA method.*
 ![figure 6](/images/figure6.png)
 
-## 3.2. Compare zonal and global mean CO2
+## 3.2. Compare zonal and global mean CO2 [[Python code]](/code/compare_wdcgg_ctracker_obs.ipynb)
+- a. The NOAA method applied to different data sources (ctracker observation and wdcgg observation) in 49 common stations, 2000-2017.
 
+Fig.7. shows the difference (CarbonTracker-WDCGG) in CO2 global mean monthly mole fraction. The global mean is derived from 49 common stations see Fig.1. The CarbonTracker (observations) global mean is, on average, 0.059+-0.319 ppm smaller than that of the WDCGG (Fig.7b). Seasonally, CarbonTracker values has larger seasonality than the WDCGG, i.e. CarbonTracker observation value have smaller in summer and higher in the other seasons. The potential causes for these discrepancies are the different data used in the stations (Fig.7a) (e.g. different dates and period of collections, different validations applied). The CarbonTracker (observations) growth rate is 0.044+-0.180 ppm / year slower than that of the WDCGG (Fig.7c).
+
+***Fig.7. The difference in global, NH and SH area-weighted average CO2 concentration, (CarbonTracker observation-WDCGG observation).***
+*Penal a shows the difference of raw data. Penal b shows the difference after applying NOAA method. Penal c shows the difference in growth rate*
+![figure 7](/images/figure7.png)
 
