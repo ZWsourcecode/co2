@@ -17,7 +17,8 @@ The CO2 mole fraction records from various stations conducted by different labor
     - [3.1. Integrate zonal and global mean CO2](#Integrate_mean)
     - [3.2. Compare zonal and global mean CO2](#Compare_mean)
 - 4.Global atmospheric CO2 mass
-    
+    - [4.1. CO2 mass calculation](#mass_calculation)
+    - [4.2. Zonal and global CO2 mass](#plot_mass)
 <a name="Carbontracker_station_data"></a>
 # 1. Data
 ## 1.1. CarbonTracker station data
@@ -49,7 +50,7 @@ CO2 records from each station can be abstracted as a combination of long-term tr
 
 ![Eq. 1](/images/Eq1.png)  
 
-where `a<sub>k</sub>`, `A<sub>n</sub>` and `B<sub>n</sub>` are fitted parameters, t is the time from the beginning of the observation and it is in months and expressed as a fraction of its year. `k` denotes polynomial number, `k=3`. `nh` denotes harmonic number, `nh=4`. Fig. 2 illustrates a function fit to CO2 data at AAC station to gain the annual oscillation (red line in Fig 2a), is a combination of a polynomial fit to the trend (blue line in Fig. 2a) and harmonic fit to the seasonality (green line in Fig. 2b). 
+where a<sub>k</sub>, A<sub>n</sub> and B<sub>n</sub> are fitted parameters, t is the time from the beginning of the observation and it is in months and expressed as a fraction of its year. k denotes polynomial number, k=3. nh denotes harmonic number, nh=4. Fig. 2 illustrates a function fit to CO2 data at AAC station to gain the annual oscillation (red line in Fig 2a), is a combination of a polynomial fit to the trend (blue line in Fig. 2a) and harmonic fit to the seasonality (green line in Fig. 2b). 
 
 ***Fig.2***
 ![figure 2](/images/figure2.png)
@@ -125,3 +126,10 @@ Here shows an example of zonal and global mean CO2 mole fraction basing on Carbo
     ***Fig.10. The difference in global, NH and SH area-weighted average CO2 concentration, (CarbonTracker model NOAA - WDCGG observation Mikio).***
     *Penal a shows the difference of raw data. Penal b shows the difference after applying fit and filter method. Penal c shows the difference in growth rate*
     ![figure 10](/images/figure10.png)
+# 4. Global atmospheric CO2 mass
+<a name="mass_calculation"></a>
+## 4.1. CO2 mass calculation
+***Fig.11. Illustration of the estimation of global CO2 mass at the atmosphere. Left drawing visualizes the structure of CarbonTracker model outputs, CO2 concertation at different level (level 1-25), air pressure (p 1-26), and geopotential height refers to Earth's mean sea level (gph 1-26). Right drawing visualizes the area of a grid cell at different gph and the volume of the air at different level.***
+![figure 11](/images/figure11.png)
+<a name="plot_mass"></a>
+## 4.2. Zonal and global CO2 mass
