@@ -49,7 +49,7 @@ CO2 records from each station can be abstracted as a combination of long-term tr
 
 ![Eq. 1](/images/Eq1.png)  
 
-where a<sub>k</sub>, A<sub>n</sub> and B<sub>n</sub> are fitted parameters, t is the time from the beginning of the observation and it is in months and expressed as a fraction of its year. k denotes polynomial number, k=3. nh denotes harmonic number, nh=4. Fig. 2 illustrates a function fit to CO2 data at AAC station to gain the annual oscillation (red line in Fig 2a), is a combination of a polynomial fit to the trend (blue line in Fig. 2a) and harmonic fit to the seasonality (green line in Fig. 2b). 
+where `a<sub>k</sub>`, `A<sub>n</sub>` and `B<sub>n</sub>` are fitted parameters, t is the time from the beginning of the observation and it is in months and expressed as a fraction of its year. `k` denotes polynomial number, `k=3`. `nh` denotes harmonic number, `nh=4`. Fig. 2 illustrates a function fit to CO2 data at AAC station to gain the annual oscillation (red line in Fig 2a), is a combination of a polynomial fit to the trend (blue line in Fig. 2a) and harmonic fit to the seasonality (green line in Fig. 2b). 
 
 ***Fig.2***
 ![figure 2](/images/figure2.png)
