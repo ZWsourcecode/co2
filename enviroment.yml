@@ -1,9 +1,13 @@
 name: icosenv
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - scipy
   - pandas
   - numpy
+  - notebook
+  - matplotlib
+  - seaborn
 prefix: D:\Program Files\anaconda3\envs\icosenv
 
