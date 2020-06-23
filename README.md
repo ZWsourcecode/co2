@@ -134,37 +134,50 @@ Here shows an example of zonal and global mean CO2 mole fraction basing on Carbo
 ![figure 11](/images/figure11.png)
 CarbonTracker model defined 25 levels of atmosphere (Fig.11). The CO2 mass at each level of the atmosphere can be calculated as a function of air mass and CO2 concentration by weight (Eq.2). 
 
-***Eq.2***
+***Eq.2:***
+
 ![Eq.2](/images/Eq2.png)
 
 where m<sub>CO2</sub> is the mass of the CO2, kg. Cw<sub>CO2</sub> is CO2 concentration by weight, w %. m<sub>air</sub> is the mass of the air, kg. CO2 concentration by weight is obtained by the formula below:
 
-***Eq.3***
+***Eq.3:***
+
 ![Eq.3](/images/Eq3.png)
 
 where Cv<sub>CO2</sub> is mole fraction of CO2 in air, mol / mol. According to the ideal gas assumption, equal volume of gases at same temperature and pressure contain equal number of moles regardless of chemical nature of gases, i.e. CO2 concentration by mole equals CO2 concentration by volume. M<sub>CO2</sub> is CO2 molar mass (44.009 g/mol). M<sub>air</sub> is the average molar mass of dry air (28.9647 g / mol).
 
 Pressure is the force applied perpendicular to the surface of an object, therefore, air pressure can be expressed by: 
 
-***Eq.4***
+***Eq.4:***
+
 ![Eq.4](/images/Eq4.png)
 
 where p<sub>air</sub> is the pressure of air, Pa or N / m2. In this case, p<sub>air</sub> is the difference of air pressure between adjacent level boundaries, e.g. air pressure at level 1 is p<sub>1</sub>-p<sub>2</sub> (Fig.11). F<sub>air</sub> is the magnitude of the normal force of air or gravity of air, N or kg m / s². The gravity of air at each level can be estimated by:
 
-***Eq.5***
+***Eq.5:***
+
 ![Eq.5](/images/Eq5.png)
 
 where g is the gravitational field strength, about 9.81 m / s2 or N / kg.
 S is the area of the surface, m2. Here S is the area of grid cell at each level, increasing with geopotential height (gph). It is calculated as a function of latitude and longitude on earth's surface, radius of the earth (R), and gph.  
 
-***Eq.6***
+***Eq.6:***
+
 ![Eq.6](/images/Eq6.png)
 
 Where, lat<sub>1</sub>, lat<sub>2</sub>, lon<sub>1</sub> and lon<sub>2</sub> are the boundary of grid cell. R = 6378.1370 km, here we use the equatorial radius which is the distance from earth’s center to the equator.
 Hence the mass of the air in Eq. 2 can be estimated by:
 
-***Eq.7***
+***Eq.7:***
+
 ![Eq.7](/images/Eq7.png)
 
 <a name="plot_mass"></a>
-## 4.2. Zonal and global CO2 mass
+## 4.2. Zonal and global CO2 mass [[Python code]](/code/plot_co2mass.ipynb)
+***Fig.12. Global, NH and SH CO2 mass from surface to 200000m.***
+*Penal a shows the global CO2 mass. Penal b shows the Northern Hemisphere CO2 mass. Penal c shows the Southern Hemisphere CO2 mass*
+![figure 12](/images/figure12.png)
+
+***Fig.13. CO2 mass zonal map.***
+![figure 13](/images/figure13.png)
+
