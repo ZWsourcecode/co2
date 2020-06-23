@@ -129,7 +129,7 @@ Here shows an example of zonal and global mean CO2 mole fraction basing on Carbo
 
 # 4. Global atmospheric CO2 mass
 <a name="mass_calculation"></a>
-## 4.1. CO2 mass calculation
+## 4.1. CO2 mass calculation [[R code]](/code/cal_co2mass_ctracker_global.R)
 ***Fig.11. Illustration of the estimation of global CO2 mass at the atmosphere. Left drawing visualizes the structure of CarbonTracker model outputs, CO2 concertation at different level (level 1-25), air pressure (p 1-26), and geopotential height refers to Earth's mean sea level (gph 1-26). Right drawing visualizes the area of a grid cell at different gph and the volume of the air at different level.***
 ![figure 11](/images/figure11.png)
 CarbonTracker model defined 25 levels of atmosphere (Fig.11). The CO2 mass at each level of the atmosphere can be calculated as a function of air mass and CO2 concentration by weight (Eq.2). 
