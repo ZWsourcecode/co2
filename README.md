@@ -119,6 +119,7 @@ Here shows an example of zonal and global mean CO2 mole fraction basing on Carbo
     *Penal a shows the difference of raw data. Penal b shows the difference after applying NOAA method. Penal c shows the difference in growth rate*
     ![figure 9](/images/figure9.png)
 - d. The different methods (NOAA and Mikio) applied to the different data sources (CarbonTracker model and WDCGG observation), 2000-2017
+    
     Fig.10. shows the difference (CarbonTracker model NOAA - WDCGG observation Mikio) in CO2 global mean monthly mole fraction. The global mean is derived from CarbonTracker model output and the WDCGG stations at 129 locations see Fig.1. The CarbonTracker model NOAA global mean is, on average, **0.666±0.313** ppm larger than that of the WDCGG observation Mikio (Fig.10b). Seasonally, CarbonTracker values has larger seasonality than the WDCGG, i.e. CarbonTracker observation value have smaller in summer and higher in the other seasons. The potential causes for these discrepancies are the different data source (Fig.10a), (one is from model, the other is from observation). The CarbonTracker (model) growth rate is **0.018±0.193** ppm / year faster than that of the WDCGG (Fig.10c).
     
     ***Fig.10. The difference in global, NH and SH area-weighted average CO2 concentration, (CarbonTracker model NOAA - WDCGG observation Mikio).***
