@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZWsourcecode/co2/master)
+
 # Global CO2 analysis for the period 2000-2017
 
 The CO2 mole fraction records from various stations conducted by different laboratories and organizations differ in measurement period (particularly the beginning of measurement), sampling frequency (or time resolution), and gaps in measurement due to e.g. instrument malfunctions and weather conditions. However, the pattern of CO2 measurement records at locations around the globe approximately consist of three components: a long-term trend, a non-sinusoidal yearly cycle, and short term variations. According to these three characteristics, this project is going to synchronize CO2 records with a curve fitting method (NOAA method afterwards), obtained from the Global Monitoring Division (GMD) in the NOAA’s ESRL (Conway et al., 1994, Thoning et al., 1989), to depict the pattern of global CO2 mole fraction by using both station records and CarbonTracker Transport Model 5 output. This project also attempts to estimate global atmospheric CO2 mass by using global average 1x1 degree fluxes from the CarbonTracker model.
