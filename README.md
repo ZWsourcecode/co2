@@ -114,7 +114,7 @@ Here shows an example of zonal and global mean CO2 mole fraction basing on Carbo
     
 - c. The different methods (NOAA and Mikio) applied to the WDCGG observation at 129 stations, 1968-2017
    
-    Fig.9. shows the difference effect of two fit and filter methods (NOAA-Mikio) on CO2 global mean monthly mole fraction. The global mean is derived from the observation of 129 WDCGG stations see Fig.1. The global mean from NOAA method is, on average, **0.0015±0.1671** ppm smaller than that of the WDCGG (Fig.9a). The CarbonTracker (model) growth rate is **0.0001±0.1177** ppm / year faster than that of the WDCGG (Fig.9b). The result indicates the method NOAA and Mikio work similarly when it comes to calculate global mean and growth rate. 
+    Fig.9. shows the difference effect of two fit and filter methods (NOAA-Mikio) on CO2 global mean monthly mole fraction. The global mean is derived from the observation of 129 WDCGG stations see Fig.1. The global mean from NOAA method is, on average, **0.0015±0.1671** ppm smaller than that of the WDCGG (Fig.9a). The NOAA method growth rate is **0.0001±0.1177** ppm / year faster than that of the WDCGG (Fig.9b). The result indicates the method NOAA and Mikio work similarly when it comes to calculate global mean and growth rate. 
     
     ***Fig.9. The difference in global, NH and SH area-weighted average CO2 concentration, (CarbonTracker model-WDCGG observation).***
     *Penal a shows the difference of raw data. Penal b shows the difference after applying NOAA method. Penal c shows the difference in growth rate*
