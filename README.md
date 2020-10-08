@@ -181,4 +181,3 @@ Hence the mass of the air in Eq. 2 can be estimated by:
 ***Fig.13. CO2 mass zonal map.***
 ![figure 13](/images/figure13.png)
 
-add a cat sign :cat:
